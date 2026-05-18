@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# GoalSphere
 
-# Run and deploy your AI Studio app
+GoalSphere is a web-based Goal Tracking and Performance Management Portal designed for employees, managers, and admins.
 
-This contains everything you need to run your app locally.
+The platform helps organizations manage:
 
-View your app in AI Studio: https://ai.studio/apps/ee06f449-992d-471e-8210-73e7e99f2393
+* Goal creation and approvals
+* Quarterly achievement tracking
+* Performance analytics
+* Reports and dashboards
+* Shared goals and notifications
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* Employee, Manager, and Admin dashboards
+* Goal approval workflow
+* Quarterly check-ins
+* Progress tracking
+* Analytics and reports
+* Audit logs and notifications
+* Escalation Model
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* React + TypeScript
+* Vite
+* SQLite
+* Plotly
+
